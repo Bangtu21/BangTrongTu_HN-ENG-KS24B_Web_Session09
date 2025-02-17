@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #3498db;
+    display: flex;
+    color: white;
+    height: 7vh;
+    align-items: center;
+    padding: 0 10px;
+}
+
+footer{
+    background-color: #9b59b6;
+    height: 7vh;
+    display: flex;
+    padding: 0 10px;
+    color: white;
+    align-items: center;
+}
+
+main{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+section{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+.side{
+    width: 200px;
+    height: 250px;
+}
+
+.content{
+    width: 777px;
+    height: 250px;
+}
